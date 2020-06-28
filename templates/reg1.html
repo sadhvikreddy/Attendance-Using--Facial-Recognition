@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/bg.css">
+	<title>Face Scan</title>
+</head>
+<body>
+<center>
+<div class = "video">
+    <video id="vidDisplay" autoplay = "true"></video>
+	<script type="text/javascript">
+		video = document.getElementById('vidDisplay')
+        navigator.getUserMedia(
+            {video: true},
+          function (stream) {
+              video.src = window.URL.createObjectURL(stream);
+              video.play();
+          }  ,
+            function (err) {
+                console.error(err);
+            }
+        );
+    </script><br><br></div>
+    <br><br>
+<button class="button" onclick="window.location.href='reg2.html'" style="width: 250px;"><span>Click When Ready</span></button>
+</center>
+</body>
+</html>

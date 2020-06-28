@@ -1,0 +1,151 @@
+body{
+    align: center;
+    color: black;
+    background-position: left;
+    font-family: calibri;
+}
+input[type="submit"]{
+            color: whitesmoke;
+            background-color: black;
+            height: 30px;
+            width: 100px;
+            font-family: calibri;
+        }
+table, th , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Calibri;
+    border-radius: 8px;
+    padding-left: 4px;
+}
+
+.card {
+    background-color: lightgray;
+    color: black;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0);
+    transition: 0.5s;
+    font-family: calibri;
+}
+
+.card1 {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0);
+    transition: 1s;
+    font-family: calibri;
+}
+
+.card2 {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0);
+    transition: 1s;
+    font-family: calibri;
+}
+
+.card3 {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0);
+    font-family: calibri;
+}
+.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+    text-align: center;
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    font-family: calibri;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.card4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0);
+    border-radius: 8px;
+    font-family: calibri;
+}
+
+h1{
+    text-shadow: 2px 2px lightgray;
+    font-family: calibri;
+}
+
+h2{
+    text-shadow: 1px 1px lightgray;
+    font-family: calibri;
+}
+
+h3{
+    text-shadow: 1px 1px lightgray;
+    font-family: calibri;
+}
+
+.card5 {
+    padding: 15px;
+    width: 650px;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0);
+    border-radius: 8px;
+    font-family: calibri;
+}
+
+.atag {
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.button1 {
+    border-style: solid;
+}
